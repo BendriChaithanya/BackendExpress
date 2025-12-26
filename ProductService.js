@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const productSchema = require("./Schema");
+const productSchema = require("./schema");
 const User = require("./user.schema");
 const orderModel = require("./orders.schema");
 const jwt = require("jsonwebtoken");
