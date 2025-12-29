@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose");
- const ProductSchema = require("./Schema"); 
+ const ProductSchema = require("./schema"); 
 
 
 const MilkItem = mongoose.model("MilkItem",ProductSchema);
